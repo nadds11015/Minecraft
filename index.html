@@ -14,22 +14,37 @@
          position: absolute;
          top: 200px:
       }
+        .video-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 30px 0;
+}
+.side-img {
+  width: 150px; /* Adjust as needed */
+  height: auto;
+}
+.left-img {
+  margin-right: 20px;
+}
+.right-img {
+  margin-left: 20px;
+}
    </style>
 </head>
 <body>
       <br>
-  <img src="Steve.jpeg" alt="Steve" width="200" style="margin-right: 10px;">
-      <img src="alex.jpeg" alt="Alex" width="200" style="margin-left: 90px;">
-  
-     <center> <h2>"C418" the Main Song</h2> </center>
-    <center>
-    <iframe width="560" height="315"
-      src="https://youtu.be/XuZDeT8zI5c?si=T7dH0GLjB4EDnJvc"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
-  </center>
-          <center>This is played in the main menu, overworld, and in creative mode.</center>
+<div class="video-row">
+  <img src="alex.jpeg" alt="Alex" class="side-img left-img" />
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/XuZDeT8zI5c"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+  <img src="Steve.jpeg" alt="Steve" class="side-img right-img" />
+</div>
+<center>This is played in the main menu, overworld, and in creative mode.</center>
 </body>
 <body>
       <br>
